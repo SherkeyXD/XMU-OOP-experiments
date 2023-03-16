@@ -34,3 +34,6 @@
 # VSCode
 cpp.code-workspace
 .vscode
+
+# Private
+spoc/

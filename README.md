@@ -44,4 +44,4 @@ exp1代表第一次实验，其他同理，题解已经标出题号和题目
 
 ## 感谢
 
-设立本仓库的灵感来自于我的朋友@ExceptionB，他的题解仓库[ExceptionB/XDOJ-Answers](https://github.com/ExceptionB/XDOJ-Answers)
+设立本仓库的灵感来自于我的朋友[ltkk](https://github.com/ExceptionB)，他的题解仓库[ExceptionB/XDOJ-Answers](https://github.com/ExceptionB/XDOJ-Answers)

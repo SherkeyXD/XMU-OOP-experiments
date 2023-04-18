@@ -1,7 +1,4 @@
-#include <iostream>
-#include <sstream>
-#include <string>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 void Stringsplit(string str, const char split, vector<string> &v)

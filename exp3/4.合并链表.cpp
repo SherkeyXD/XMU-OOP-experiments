@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 struct node
 {
@@ -23,7 +23,7 @@ node *createList()
         now = next;
     }
     return head;
-} //和上一题一样
+} //和第一题一样
 
 node* merge(node* head1, node* head2)
 {

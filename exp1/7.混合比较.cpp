@@ -1,5 +1,4 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 int cmp(const void *a, const void *b)

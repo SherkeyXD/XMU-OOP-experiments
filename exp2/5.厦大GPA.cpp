@@ -1,5 +1,4 @@
-#include <iostream>
-#include <iomanip>
+#include <bits/stdc++.h>
 using namespace std;
 const int Wmax = 400;
 const int N = 10;

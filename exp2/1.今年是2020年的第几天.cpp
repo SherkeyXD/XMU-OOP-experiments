@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 const int month[12] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

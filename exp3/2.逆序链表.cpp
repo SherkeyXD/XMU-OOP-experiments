@@ -23,29 +23,26 @@ node *createList()
         now = next;
     }
     return head;
-} //和上一题一样
+} //和第一题一样
 
 node *reverseList(node *head)
-
 {
     int num = 0;
     for (node *p = head; p != NULL; p = p->next)
         num++;
     if (num == 0)  return NULL;
     else if ( num == 1 ) return head;
-    node *n = head;
-    node *nn = n->next;
-    node *nnn = nn->next;
-    n->next = NULL;
-    while (nnn != NULL)
+    node *a = head, *b = head->next, *c = head->next->next;
+    a->next = NULL;
+    while (c != NULL)
     {
-        nn->next = n;
-        n = nn;
-        nn = nnn;
-        nnn = nnn->next;
+        b->next = a;
+        a = b;
+        b = c;
+        c = c->next;
     }
-    nn->next = n;
-    return nn;
+    b->next = a;
+    return b;
 }
 // 到此为止
 

@@ -23,12 +23,11 @@ node *createList()
         now = next;
     }
     return head;
-} //和上一题一样
+} //和第一题一样
 
 node *deleteElements(node *head, int v)
 {
-    node *p = head;
-    node *q = NULL;
+    node *p = head, *pre = NULL;
     while (p != NULL)
     {
         if (p->val == v)
@@ -41,14 +40,14 @@ node *deleteElements(node *head, int v)
             }
             else
             {
-                q->next = p->next;
+                pre->next = p->next;
                 delete p;
-                p = q->next;
+                p = pre->next;
             }
         }
         else
         {
-            q = p;
+            pre = p;
             p = p->next;
         }
     }

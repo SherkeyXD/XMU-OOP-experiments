@@ -36,4 +36,4 @@ cpp.code-workspace
 .vscode
 
 # Private
-spoc/
+*/spoc

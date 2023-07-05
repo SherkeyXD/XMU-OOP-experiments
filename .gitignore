@@ -168,7 +168,7 @@ cython_debug/
 *.app
 
 # VSCode
-cpp.code-workspace
+*.code-workspace
 .vscode
 tempCodeRunnerFile.*
 

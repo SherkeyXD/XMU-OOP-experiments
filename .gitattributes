@@ -9,6 +9,16 @@
 *.h     text diff=cpp eol=lf
 *.h++   text diff=cpp eol=lf
 *.hh    text diff=cpp eol=lf
+*.pxd    text diff=python eol=lf
+*.py     text diff=python eol=lf
+*.py3    text diff=python eol=lf
+*.pyw    text diff=python eol=lf
+*.pyx    text diff=python eol=lf
+*.pyz    text diff=python eol=lf
+*.pyi    text diff=python eol=lf
+
+# Jupyter notebook
+*.ipynb  text eol=lf
 
 # Compiled Object files
 *.slo   binary
@@ -35,3 +45,12 @@
 *.exe   binary
 *.out   binary
 *.app   binary
+
+# Python binary
+*.db     binary
+*.p      binary
+*.pkl    binary
+*.pickle binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
+*.pyd    binary

@@ -8,11 +8,11 @@
 
 ## 写在前面
 
-本仓库用于收集 xmuoj.com 上面实验部分的题解（目前仅提供 C++ 解法）
+本仓库用于收集 xmuoj.com 上面实验部分的题解
 
-需要注意的是，代码中用到的部分函数可能来自于网络，在此对这些函数的作者表示感谢，如果涉及到版权问题也请发布issue，我会予以删除或更改
+需要注意的是，代码中用到的~~很多~~部分函数可能来自于网络 ~~别问，问就是不会或者懒得写~~，在此对这些函数的作者表示感谢，如果涉及到版权问题也请发布issue，我会予以删除或更改
 
-目前暂时没有附上题面的计划，因为题目内容较为复杂，写成Markdown文档的话需要内嵌一堆Latex公式，如果你有好的方法，欢迎提出issue或pr
+目前暂时没有附上题面的计划，因为题目内容较为复杂，写成 Markdown 文档的话需要内嵌一堆 Latex 公式，如果你有好的方法，欢迎提出 issue 或 pr
 
 
 ## 仓库结构
@@ -27,24 +27,22 @@
     │  └─实验名称
 ```
 
-exam目录下是考试题解，experiments目录下是实验题解
+exam 目录下是考试题解，experiments 目录下是实验题解
 
 ## 我有问题
 
-[cppreference](https://zh.cppreference.com/w/首页)是个很好的网站, 你可以在这里查到关于C和C++的一切。此外，三用搜索引擎也是一个程序员所需具备的良好品质。
-
-如果已经搜索过或是查询过，但你仍有疑惑，可以发起issue或discussion。参考[提问的智慧](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)，你会知道该怎么提出一个好问题的。
+[提问的智慧](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)是一篇好文章，读完之后你会知道该怎么提出一个好问题的。
 
 ## 如何贡献
 
-欢迎提出issue或直接发起pr，我会定时查看的
+欢迎提出 issue 或直接发起 pr，我会定时查看的
 
 ## 感谢
 
-设立本仓库的灵感来自于我的朋友[ltkk](https://github.com/ExceptionB)，他是大佬我是菜鸡呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜😭😭😭😭😭😭
+设立本仓库的灵感来自于我的朋友 [ltkk](https://github.com/ExceptionB)，他是大佬我是菜鸡呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜呜😭😭😭😭😭😭
 
 
-他的题解仓库[ExceptionB/XDOJ-Answers](https://github.com/ExceptionB/XDOJ-Answers)
+他的题解仓库 [ExceptionB/XDOJ-Answers](https://github.com/ExceptionB/XDOJ-Answers)
 
 ## 发电
 
